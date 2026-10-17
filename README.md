@@ -71,7 +71,7 @@ Because successful jailbreaks produced a highly imbalanced refusal split, I cons
 Steering successful jailbreak activations toward the refusal-associated side restored refusal from:
 
 ```text
-0% -> 95%
+*% -> **%
 ```
 
 at the strongest tested intervention.
