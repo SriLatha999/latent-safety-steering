@@ -159,8 +159,8 @@ For Qwen, at the primary random-steering setting:
 ```text
 Median normal norm
 
-Refusal:               41.93
-Coherent non-refusal:  41.85
+Refusal:               **.**
+Coherent non-refusal:  **.**
 ```
 
 The corresponding residual increases were also nearly identical.
@@ -225,7 +225,7 @@ On Qwen, the selected prompts began at:
 At the primary random-perturbation setting, refusal dropped to:
 
 ```text
-9.5%
+*.*%
 ```
 
 while stronger perturbation settings produced more degeneration.
