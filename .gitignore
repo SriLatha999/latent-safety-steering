@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large model / tensor files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npy
+*.npz
+*.pkl
+
+# Generated experiment outputs
+activation_pilot/
+activation_tiny_test/
+analysis_layer16_last_token/
+analysis_refusal_probe/
+baseline_generation/
+baseline_generation_full/
+current_pipeline_reference_full/
+current_pipeline_reference_layer8/
+cross_model_results/
+rogue_scalpel_l16_pilot/
+rogue_scalpel_layer8_focused/
+rogue_scalpel_layer8_paper_pilot/
+steering_validation_20/
+geometry_matched_steering_20/
+
+# Logs / SLURM
+*.out
+*.err
+slurm-*
+
+# Caches / env
+.cache/
+hf_cache/
+.env
